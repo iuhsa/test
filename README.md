@@ -1,2 +1,2 @@
 # KZPM.github.io
-# My fist web.
+# My first web.
