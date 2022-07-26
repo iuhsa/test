@@ -23,7 +23,7 @@
             if(typeof(start_content['chase_text'])!='undefined' && start_content['chase_text']!=''){ 
                 $('.div_oy_text .p_oy_text').html(start_content['chase_text']); //加载自定义内容
             }else{ //设置默认值
-                $('.div_oy_text .p_oy_text').html('小可爱，我喜欢你好久了。不只是遇见你，即使只是想起你，都会让我小鹿突突地乱撞。我一定会好好地疼你，你做我女朋友好不好？');
+                $('.div_oy_text .p_oy_text').html('遇见你是我所有美好故事的开始，所以，我希望，点进这个页面的你可以从我沐风这里买一张票再走！');
             }
             
             // 设置正文之前的照片
@@ -47,19 +47,19 @@
             //     return s && s.trim(); // 去掉空值
             // }); //全空作品，但是却定义了key的情况
             if(array_oy_benefit[0]==''){
-                array_oy_benefit[0]='我会把全部工资都给你';
+                array_oy_benefit[0]='不';
             }
             if(array_oy_benefit[1]==''){
-                array_oy_benefit[1]='每天做好吃的给你';
+                array_oy_benefit[1]='买';
             }
             if(array_oy_benefit[2]==''){
-                array_oy_benefit[2]='你睡不着时给你讲故事';
+                array_oy_benefit[2]='是';
             }
             if(array_oy_benefit[3]==''){
-                array_oy_benefit[3]='给你自由去做喜欢的事情';
+                array_oy_benefit[3]='吧';
             }            
         }else{
-            array_oy_benefit=['我会把全部工资都给你','每天做好吃的给你','你睡不着时给你讲故事','给你自由去做喜欢的事情'];
+            array_oy_benefit=["不", "买", "票", "是", "吧", "！！"];
         }
         console.log(array_oy_benefit); 
         var index_text_oy=0; 
